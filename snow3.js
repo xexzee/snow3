@@ -74,7 +74,7 @@ for (i = 0; i < numberOfSnowflakes; i++) {
 }
 
 // set an interval for the nextFrame function
-var timer = window.setInterval(function(){ nextFrame() }, 50);
+var timer = window.setInterval(function(){ nextFrame() }, 20);
 
 // clears the screen, then calls snowflakes[i].fall for each
 // snowflake in the snowflakes array, which redraws the snowflake
